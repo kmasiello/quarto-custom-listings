@@ -1,0 +1,49 @@
+<!-- This ejs template expects content items to be provided directly from 
+    the yaml of the listing page, e.g.,
+listing: 
+    - id: featured-listings
+      template: ejs/featured.ejs
+      contents:
+        - articles/article1
+        - articles/article3
+If there is any additional metadata you wish to add, it must go in the yaml 
+of each article (e.g., see `titleoverride-listing`) -->
+
+```{=html}
+
+<div class="featured-section-wide">
+
+    <!-- 'console.log(item);' added for debugging so you can see what is being fed into the ejs template -->
+    <% for (const item of items) { console.log(item);%>
+        
+        <div class="article">
+        
+        
+        
+        <a href="<%- item.path %>" role="button" class="featured-box-button featured-box">
+            
+            <div class="featured-title">
+                <% if (item['titleoverride-listing']) { %>
+                    <%- item['titleoverride-listing'] %><br>
+                    <% } else { %> 
+                        <%= item.title %><br> <% }
+                        %>
+                    </div>
+                    
+                    <div class="featured-description">
+                        <% if (item['description-listing']) { %>
+                            <%- item['description-listing'] %>
+                            <% } else { %> 
+                                <%= item.description %> <% }
+                                %><br>
+                            </div>
+                            
+        </a>
+                        
+    </div>
+    
+    <% } %>
+    
+</div>
+
+```

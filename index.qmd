@@ -1,0 +1,41 @@
+---
+title: "Sample Custom Listing Formats in Quarto"
+listing: 
+    - id: featured-wide
+      template: ejs/featured-wide.ejs
+      contents:
+        - articles/article2
+    - id: featured
+      template: ejs/featured.ejs
+      contents:
+        - articles/article1
+        - articles/article3
+    - id: articles
+      template: ejs/articles-condensed.ejs
+      contents: 
+        - articles.yml
+    - id: articles-list
+      template: ejs/article-lists.ejs
+      contents: 
+        - articles
+
+---
+
+<h3>Featured</h3>
+
+::: {#featured-wide style="max-width: 850px;"}
+:::
+
+::: {#featured style="max-width: 850px;"}
+:::
+
+<h3>Article Lists in a Condensed Form</h3>
+
+::: {#articles style="max-width: 850px;"}
+:::
+
+
+<h3>Pretty List of Articles</h3>
+
+::: {#articles-list style="max-width: 850px;"}
+:::

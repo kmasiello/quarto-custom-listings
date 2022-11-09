@@ -1,0 +1,45 @@
+- sectiontitle: Two Articles
+  sectionsubtitle: 
+  links:  
+    - title: Article 1
+      path: articles/article1
+      description: Aenean imperdiet, mi ut lacinia blandit, quam nulla hendrerit erat, nec lobortis nisi sapien non metus. Aenean ullamcorper urna ut justo porta, ac imperdiet mi tempor. Nullam at lectus congue, pharetra augue sed, faucibus metus. Nullam suscipit neque feugiat, vulputate nulla non, convallis purus. 
+    - title: Article 2
+      path: articles/article2
+      description: Praesent quis metus bibendum, pharetra felis ac, maximus nulla. Ut faucibus sapien at mi mattis, nec placerat lectus malesuada.
+- sectiontitle: Two More
+  sectionsubtitle: 
+  links:  
+    - title: Article 3
+      path: articles/article3
+      description: Morbi condimentum diam sit amet metus volutpat vehicula. Nunc vestibulum diam et tristique accumsan. Praesent in justo at lacus porttitor ornare pharetra eget magna. Ut scelerisque nisl ut eros vehicula, quis lacinia odio fermentum.
+    - title: Article 4
+      path: articles/article4
+      description: Donec consectetur felis et interdum gravida. Vivamus pharetra in tortor a volutpat. Nulla ullamcorper, neque eget vehicula condimentum, lacus lorem bibendum risus, a placerat ligula turpis sed velit.
+- sectiontitle: This section has less detail
+  sectionsubtitle: for brevity
+  links:  
+    - title: Article 1
+      path: articles/article1
+      description: 
+    - title: Article 2
+      path: articles/article2
+      description: 
+    - title: Article 3
+      path: articles/article3
+      description: 
+    - title: Article 4
+      path: articles/article4
+      description: 
+- sectiontitle: And another brief section
+  sectionsubtitle:
+  links:  
+    - title: Article 4
+      path: articles/article4
+      description: 
+    - title: Article 3
+      path: articles/article3
+      description: 
+    - title: Article 2
+      path: articles/article2
+      description: 

@@ -1,0 +1,29 @@
+<!-- This ejs template expects content items to be provided directly from 
+    the yaml of the listing page, e.g.,
+listing: 
+    - id: articles-list
+      template: ejs/articles-list.ejs
+      contents:
+        - articles
+-->
+
+```{=html}
+
+
+<!-- 'console.log(item);' added for debugging so you can see what is being fed into the ejs template -->
+<% for (const item of items) { console.log(item);%>
+
+
+
+    <a href="<%- item.path %>" role="button" class="article-list-box-button article-list-box">
+    
+        <div class="article-list-title">
+            <%= item.title %><br>
+            </div>
+
+    
+    </a>
+
+<% } %>
+
+```

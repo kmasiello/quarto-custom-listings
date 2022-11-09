@@ -1,0 +1,68 @@
+<!-- This template expects a custom metadata list of the form: 
+- sectiontitle: 
+  sectionsubtitle: 
+  links:  
+    - title: 
+      path: 
+      description: 
+
+It may be easier to manage if you put this all in a separate yml file, e.g., articles-list.yml as illustrated below:
+
+And refer to this in the listing page as
+listing: 
+    - id: articles
+      template: ejs/articles-condensed.ejs
+      contents: 
+        - articles.yml  -->
+
+```{=html}
+
+<div class="articles-section">
+
+<!-- 'console.log(item);' added for debugging so you can see what is being fed into the ejs template -->
+<% for (const item of items) { console.log(item);%>
+
+    <div class="article">
+
+        <div class="article-title">
+        
+            <% if (item.sectiontitle) { %>
+                <br>
+                <%- item.sectiontitle %>
+                <% } 
+             %> 
+        
+        </div>
+
+        <% if (item.sectionsubtitle) { %>
+            <div class="article-description">
+            <i><%- item.sectionsubtitle %></i></div>
+            <% } 
+         %> 
+
+
+        <% for (const link of item.links) { console.log(link);%>
+
+        <div class="article-description featured-description" style="padding-bottom: 4px;">
+            <a href="<%- link.path %>"><%= link.title %></a>
+
+            <% if (link.description) { %>
+                <br>
+                <%- link.description %>
+                <% } 
+             %> 
+
+        </div>
+
+
+        <% } %>
+
+        
+    </div>
+
+<% } %>
+
+</div>
+
+```
+
