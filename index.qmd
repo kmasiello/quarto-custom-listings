@@ -22,7 +22,7 @@ listing:
 ---
 
 :::{.callout-tip}
-See the repo for this work: 
+Code for these examples lives at: 
 <https://github.com/kmasiello/quarto-custom-listings>
 :::
 
