@@ -5,6 +5,5 @@
 .DS_Store
 .quarto
 *.html
-_site
 *.Rproj
 /.quarto/

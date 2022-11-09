@@ -1,0 +1,46 @@
+
+.articles-section {
+    margin-bottom: 30px;
+    box-sizing: border-box;
+  }
+  
+  .articles-section a {
+    text-decoration: none;
+  }
+  
+  .articles-section a:hover {
+    color: #b4758c;
+    text-decoration: underline;
+  }
+  
+  .articles-section-title-block {
+    color: #404041;
+  }
+  
+  .articles-section-description-block {
+    color: #757883;
+    font-size: 16px;
+    line-height: 24px;
+    /* margin-bottom: 30px; */
+  }
+  
+  
+  .articles-section .article {
+    display: inline-block;
+    width: 45%;
+    margin-right: 4%;
+    margin-bottom: 20px;
+    vertical-align: top;
+  }
+  
+  .article-title {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .article-description {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0px 0px 2px;
+  }
+  
