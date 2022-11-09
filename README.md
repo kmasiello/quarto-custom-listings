@@ -2,6 +2,8 @@
 
 My css may not be the most efficient, but it gets the job done. 
 
+See these formats published here: https://katie.quarto.pub/sample-custom-listings-with-quarto/
+
 ## Templates available
 
 1. Featured - makes each entry a button box with highlight and drop shadow effect on hover. Boxes will tile two across.
