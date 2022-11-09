@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 728bc518-b235-429e-b397-2bbb56a2a67b
+      url: 'https://quartopub.com/sites/katie/sample-custom-listings-with-quarto'

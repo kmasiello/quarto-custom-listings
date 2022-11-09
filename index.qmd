@@ -21,6 +21,11 @@ listing:
 
 ---
 
+:::{.callout-tip}
+See the repo for this work: 
+<https://github.com/kmasiello/quarto-custom-listings>
+:::
+
 <h3>Featured</h3>
 
 ::: {#featured-wide style="max-width: 850px;"}
