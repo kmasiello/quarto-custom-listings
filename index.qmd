@@ -26,7 +26,7 @@ Code for these examples lives at:
 <https://github.com/kmasiello/quarto-custom-listings>
 :::
 
-<h3>Featured</h3>
+<h3>Featured</h3> 
 
 ::: {#featured-wide style="max-width: 850px;"}
 :::
